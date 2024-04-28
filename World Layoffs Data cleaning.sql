@@ -91,7 +91,7 @@ update layoffs_prep2
 set company = trim(company);
 
 /* in the industry column, some are crypto, some are crypto currency while 
-some are cryptocurrency while are all the same so we need to get all this 
+some are cryptocurrency while all are the same so we need to get all this 
 data under one name. */
 
 select *
@@ -179,37 +179,3 @@ from layoffs_prep2;
 
 alter table layoffs_prep2
 drop column row_num;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
